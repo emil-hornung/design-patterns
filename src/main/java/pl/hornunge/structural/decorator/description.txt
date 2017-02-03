@@ -1,0 +1,10 @@
+---Coffee example---
+We are given Coffee interface with some implementations. Also we are given a static method printCoffee(Coffee),
+which prints the name of the coffee with its cost.
+Assume we want to sell coffee with some condiments. As we can't change printCoffee method, we will introduce
+CoffeeDecorator abstract class. It can be recognized by that it implements Coffee interface and also have a constructor
+with a parameter of Coffee type.
+
+---Lowercase reader example---
+We define a new LowerCaseReader class which reads a data in a lower case.
+Again, LowerCaseReader has a constructor with a parameter of Reader type.

@@ -1,0 +1,6 @@
+We are given 2 different drawing programs: DrawingProgram1 and DrawingProgram2.
+Both has similar functionality - they can draw a line or a circle. But their interfaces are different.
+On the other hand, we would like to draw 2 shapes: a rectangle and a circle.
+We would like to be able to draw those shapes using either DrawingProgram1 or DrawingProgram2.
+We also would like to introduce more shapes in the future and we should
+be ready to extend functionality when new DrawingProgram comes into play.
